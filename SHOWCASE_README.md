@@ -48,20 +48,6 @@ EKORE replaces that spreadsheet with a financial dashboard that understands your
 
 ---
 
-## Screenshots
-
-<p align="center">
-  <img src="screenshots/dashboard.png" alt="EKORE dashboard" width="80%" />
-</p>
-<p align="center">
-  <img src="screenshots/aikore.png" alt="AIKore AI assistant" width="80%" />
-</p>
-<p align="center">
-  <img src="screenshots/tax-separation.png" alt="Tax separation view" width="80%" />
-</p>
-
----
-
 ## Architecture (conceptual)
 
 EKORE is a React + TypeScript progressive web app backed by Supabase (Postgres, Auth, and serverless edge functions) and Stripe for subscription billing. AI features are powered by Claude, called exclusively from server-side functions so no model credentials are ever exposed to the client. The app is deployed on Vercel.
