@@ -74,7 +74,7 @@ Stripe (billing)        ─┘
 
 ---
 
-## Why this repo is private
+## Why the code is private?
 
 EKORE handles real financial data for paying users. The source stays private for security reasons; this repository exists to document the product and its progress publicly.
 
